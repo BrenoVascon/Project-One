@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'poppins';
+}
+/*--------------------------------------MAIN---------------------------------*/
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#content .menu-h {
+  background-color: #ddfbdc;
+}
+
+li {
+  display: inline;
+  margin-left: 27px;
+}
+
+.learn {
+  display: flex;
+  padding-right: 13px;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.home {
+  margin-left: 130px;
+}
+.get {
+  border: 3px solid;
+  border-radius: 5px;
+  width: 97px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+a {
+  justify-content: space-between;
+}
+
+h1 {
+  margin-top: 170px;
+  font-size: 42px;
+  color: #455a64;
+}
+
+.menu-h {
+  display: flex;
+  line-height: 21px;
+  background-color: #ddfbdc;
+  padding: auto;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13.7143px;
+}
+
+h5 {
+  margin-top: 30px;
+}
+
+main {
+  background-color: #ddfbdc;
+  width: 100%;
+  height: 800px;
+}
+
+.contents {
+  margin-left: 250px;
+}
+
+button {
+  width: 131px;
+  height: 39px;
+  background-color: #456a76;
+  color: white;
+  border-radius: 6px;
+}
+
+div {
+  display: inline-block;
+}
+.group {
+  width: 487px;
+  height: 487px;
+  margin-top: 63px;
+  padding-left: 520px;
+}
+
+img.limg {
+  padding-left: 313px;
+  padding-right: 150px;
+}
+
+/*-------------------------Section2----------------------*/
+
+.card {
+  margin-top: 360px;
+  background-color: #ddfbdc;
+  width: 337px;
+  height: 290px;
+  border-radius: 13px;
+  align-items: center;
+}
+
+.cards {
+  height: 290px;
+  width: 1111px;
+  margin-left: 490px;
+  gap: 90px;
+  display: flex;
+}
+
+.minilogo {
+  width: 76px;
+  height: 76px;
+  position: relative;
+  left: 115px;
+}
+
+.cards h4 {
+  position: relative;
+  left: 90px;
+}
+/*-----------about2-------*/
+.woman {
+  display: flex;
+  margin-top: 320px;
+  column-gap: 80px;
+  margin-left: 380px;
+}
+
+.content h2 {
+  margin: 1px;
+  margin-bottom: 17px;
+  font-size: 42px;
+  color: #455a64;
+}
+.content {
+  /* border: 1px solid; */
+  width: 457.5px;
+  height: 377px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* align-content: center; */
+  position: relative;
+  left: 180px;
+}
