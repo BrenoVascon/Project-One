@@ -13,9 +13,13 @@ body {
   background-color: #ddfbdc;
 }
 
+#content {
+  background-image: url('assets/img/pngwing\ 1.png');
+}
+
 li {
   display: inline;
-  margin-left: 27px;
+  margin-left: 35px;
 }
 
 .learn {
@@ -27,7 +31,7 @@ li {
 }
 
 .home {
-  margin-left: 130px;
+  margin-left: 290px;
 }
 .get {
   border: 3px solid;
@@ -84,6 +88,9 @@ button {
   border-radius: 6px;
 }
 
+button:hover {
+  background-color: #679272;
+}
 div {
   display: inline-block;
 }
@@ -113,7 +120,7 @@ img.limg {
 .cards {
   height: 290px;
   width: 1111px;
-  margin-left: 490px;
+  margin-left: 540px;
   gap: 90px;
   display: flex;
 }
@@ -122,12 +129,12 @@ img.limg {
   width: 76px;
   height: 76px;
   position: relative;
-  left: 115px;
+  left: 119px;
 }
 
 .cards h4 {
   position: relative;
-  left: 90px;
+  left: 98px;
 }
 /*-----------about2-------*/
 .woman {
@@ -153,4 +160,51 @@ img.limg {
   /* align-content: center; */
   position: relative;
   left: 180px;
+}
+
+/*-----------About3----------*/
+
+.features {
+  display: flex;
+  width: 1213px;
+  height: 720px;
+  background-color: #ddfbdc;
+  border-radius: 50px;
+  position: relative;
+  left: 490px;
+  top: 70px;
+}
+
+.iphone img {
+  width: 497px;
+  position: relative;
+  left: 220px;
+  top: 65px;
+}
+
+.cartoes {
+  display: column;
+  width: 389px;
+  height: 434px;
+  flex-direction: column;
+  text-align: justify;
+  width: 319px;
+  height: 134px;
+  position: relative;
+
+  left: 130px;
+  top: 50px;
+}
+
+.minilogos {
+  width: 57px;
+  height: 57px;
+  position: relative;
+}
+
+.cartoes h4 {
+  color: #455a64;
+}
+.cartao p {
+  font-size: 16.67px;
 }
